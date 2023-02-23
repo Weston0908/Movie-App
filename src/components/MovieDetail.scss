@@ -1,0 +1,88 @@
+@import "../common/color.scss";
+
+// .movie-detail-container {
+//   height: 100%;
+// }
+
+.movie-detail-card {
+  display: flex;
+  flex-direction: row;
+  color: $font-primary;
+  padding: 20px;
+}
+
+.movie-details {
+  width: 70%;
+}
+
+.movie-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.movie-title {
+  margin: 0;
+}
+
+.movie-year {
+  margin: 0;
+}
+
+.movie-award {
+  display: flex;
+  align-items: center;
+}
+
+.movie-info {
+  margin-right: 20px;
+  p > span {
+    color: $font-secondary;
+  }
+}
+
+.movie-divider {
+  border: 0;
+  height: 1px;
+  background-color: white;
+  margin: 20px 0;
+}
+
+.movie-rating {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.movie-other-ratings {
+  margin-top: 0;
+}
+
+.movie-poster {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-poster img {
+  max-height: 500px;
+  border-radius: 5px;
+}
+
+.fa-star,
+.fa-trophy {
+  margin-right: 5px;
+  color: #ffcd3c;
+}
+
+.loading {
+  color: $font-primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+}
