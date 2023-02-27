@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import user from "../images/user.png";
+import user from "../images/profile.png";
 import { Link } from "react-router-dom";
 import "./Header.scss";
 import { useDispatch } from "react-redux";
